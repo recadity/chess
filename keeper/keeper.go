@@ -1,9 +1,10 @@
 package keeper
 
 import (
+    "github.com/recadity/chess/errors"
     "github.com/recadity/chess/types"
     sdk "github.com/cosmos/cosmos-sdk/types"
-    sdkerrors "github.com/recadity/chess/errors"
+    sdkerrors "cosmossdk.io/errors"
     "github.com/cosmos/cosmos-sdk/codec"
 )
 
